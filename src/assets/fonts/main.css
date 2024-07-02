@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "vazir";
+  font-style: normal;
+  font-weight: 300;
+  src: url("fonts/vazir/Vazirmatn-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "vazir";
+  font-style: normal;
+  font-weight: 500;
+  src: url(IRANSans/IRANSansWebFaNum_Medium.woff2) format("woff2");
+}
+@font-face {
+  font-family: "vazir";
+  font-style: normal;
+  font-weight: 500;
+  src: url("fonts/vazir/Vazirmatn-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "vazir";
+  font-style: normal;
+  font-weight: bold;
+  src: url("fonts/vazir/Vazirmatn-Bold.woff2") format("woff2");
+}
+
+* {
+  font-family: "vazir" !important;
+}
