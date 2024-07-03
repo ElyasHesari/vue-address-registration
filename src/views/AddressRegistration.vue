@@ -1,11 +1,10 @@
 <template>
-  <div>address registration</div>
+  <AddressForm />
 </template>
 
 <script setup>
-
+import AddressForm from "@/components/AddressForm.vue";
 </script>
 
-<style>
-
+<style scoped>
 </style>
