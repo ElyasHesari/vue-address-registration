@@ -5,9 +5,14 @@
     <button class="btn btn-custom" type="button">ثبت و ادامه</button>
   </footer>
 </template>
+
+
 <style scoped>
 .custom-height {
   height: 80px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 .shadow-custom {
   box-shadow: 0 -5px 8px -5px rgba(0, 0, 0, 0.15);
