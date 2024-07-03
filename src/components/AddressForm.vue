@@ -15,7 +15,7 @@
                   class="form-label fw-bold font-custom"
                   >نام</label
                 >
-                <div class="input-group">
+                <div class="d-flex position-relative">
                   <input
                     type="text"
                     v-model="inputs.firstName"
@@ -24,13 +24,8 @@
                     placeholder="مثال: محمد"
                     required
                   />
-                  <button
-                    class="btn btn-outline-secondary"
-                    type="button"
-                    @click="clearInput"
-                  >
-                    <i class="bi bi-x-lg"></i>
-                  </button>
+
+                  <i @click="clearInput" class="bi bi-x-circle-fill text-gray position-absolute" style="bottom: 5px; left: 11px; cursor: pointer;"></i>
                 </div>
                 <div class="valid-feedback">Looks good!</div>
               </div>
@@ -156,6 +151,7 @@ const inputs = reactive({
 });
 
 const clearInput = () => {
+  console.log(3333)
   inputs.values = {
     firstName: "",
     lastName: "",
@@ -178,5 +174,8 @@ const clearInput = () => {
   outline: none;
   box-shadow: none;
   border: 1px solid #00bfa5;
+}
+.text-gray {
+  color: #B6B6B6;
 }
 </style>
